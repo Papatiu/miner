@@ -1,0 +1,21 @@
+{
+  "autosave": true,
+  "cpu": {
+    "enabled": true,
+    "priority": 5,
+    "asm": true,
+    "max-threads-hint": 50,          // CPU'nun yarısını kullan
+    "huge-pages": true
+  },
+  "pools": [
+    {
+      "url": "monerohash.com:3333",   // Kullanmak istediğin havuz
+      "user": "YOUR_WALLET_ADDRESS",  // Buraya cüzdan adresini yaz
+      "pass": "worker1",
+      "keepalive": true,
+      "tls": false
+    }
+  ],
+  "donate-level": 1,
+  "log-file": "xmrig.log"
+}
